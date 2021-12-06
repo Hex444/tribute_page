@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+header {
+    background-color: dimgray;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid dimgrey;
+    border-radius: 20px;
+    padding: 25px 10px;
+    /* float: top; */
+    display: inline-block;
+    width: 100%;
+    top: 0;
+}
+.navlist li {
+    list-style: none;
+    padding: 0px 10px;
+}
+.navlist li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.whomusk {
+    margin-top: 30px;
+}
+.navlist {
+    display: flex;
+     flex-direction: row;
+}
+
+/* why is he revolutionary? */
+.whyisherevolutionary ol {
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+}
+.whyisherevolutionary ol li {
+    list-style: circle;
+}
+.whyisherevolutionary ol #item4 .item4subpart{
+    display: flex;
+    flex-direction: column;
+}
