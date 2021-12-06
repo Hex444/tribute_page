@@ -6,10 +6,10 @@ body {
     font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 header {
-    background-color: dimgray;
+    background-color: white;
     display: flex;
     flex-direction: row;
-    border: 2px solid dimgrey;
+    border: 2px solid rgb(93, 246, 4);
     border-radius: 20px;
     padding: 25px 10px;
     /* float: top; */
@@ -23,7 +23,7 @@ header {
 }
 .navlist li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
 }
 .whomusk {
@@ -46,4 +46,31 @@ header {
 .whyisherevolutionary ol #item4 .item4subpart{
     display: flex;
     flex-direction: column;
+}
+.left {
+    /* temporary */
+    border: 2px solid red;
+    /* parmanent */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 18px; 
+    padding: 0px 22px; 
+}
+.center {
+    /* temporary */
+    border: 2px solid rgb(238, 255, 0);
+    /* parmanent */
+    display: block;
+    width: 33%;
+    margin: 18px auto;
+}
+.right {
+    /* temporary */
+    border: 2px solid rgb(0, 119, 255);
+    /* parmanent */
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 53px;    
 }
