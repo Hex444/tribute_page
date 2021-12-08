@@ -82,20 +82,39 @@ header {
 
 
 /* body */
-.whomusk {
+#whomusk {
     margin-top: 30px;
+    color: rgb(66, 66, 66);
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+.whomuskpara {
+    margin-top: 30px;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 
+.whyisherevolutionary {
+    color: white;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    color: rgb(126, 126, 126);
+}
 /* why is he revolutionary? */
 .whyisherevolutionary ol {
     display: flex;
     flex-direction: column;
     list-style: disc;
-}
-.whyisherevolutionary ol li {
-    list-style: circle;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 .whyisherevolutionary ol #item4 .item4subpart{
     display: flex;
     flex-direction: column;
+}
+.subhead {
+    color: rgb(126, 126, 126);
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+.para {
+    color: white;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
